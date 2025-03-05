@@ -9,7 +9,7 @@ export interface PrayerTime {
   isha: string;
 }
 
-export const laPrayerTimes: PrayerTime[] = [
+const laPrayerTimes: PrayerTime[] = [
   {
     date: "2025-03-01",
     ramadanDay: 1,
@@ -322,7 +322,7 @@ export const laPrayerTimes: PrayerTime[] = [
   }
 ];
 
-export const nycPrayerTimes: PrayerTime[] = [
+const nycPrayerTimes: PrayerTime[] = [
   {
     date: "2025-03-01",
     ramadanDay: 1,
