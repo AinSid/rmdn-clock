@@ -2,7 +2,7 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { PrayerTime, getPrayerTimesForDate, laPrayerTimes, nycPrayerTimes } from "@/lib/prayer-times";
+import { PrayerTime, getPrayerTimesForDate } from "@/lib/prayer-times";
 import { useEffect, useState } from "react";
 
 type City = 'LA' | 'NYC';
