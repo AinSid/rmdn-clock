@@ -2,7 +2,7 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { PrayerTime, getPrayerTimesForDate } from "@/lib/prayer-times";
+import { PrayerTime, getPrayerTimesForDate, laPrayerTimes, nycPrayerTimes } from "@/lib/prayer-times";
 import { useEffect, useState } from "react";
 
 type City = 'LA' | 'NYC';
@@ -105,7 +105,7 @@ export function PrayerTimes() {
         >
           ← Back
         </Button>
-        <h2 className="text-sm font-medium text-[#D98C65]">
+        <h2 className="text-sm font-medium text-[#1C1C1C]">
           {selectedCity === 'LA' ? 'Los Angeles' : 'New York City'}
         </h2>
       </div>
